@@ -3,11 +3,11 @@ import requests
 def send_message():
     url = "https://www.fast2sms.com/dev/bulk"
 
-    payload = "sender_id=abhijith & message= 'Hello, This is to remind you of a task. -Regards Abhijith' & language=english & route=p & numbers=9573839964"
+    payload = "sender_id=abhijith & message= 'Hello, This is to remind you of a task. -Regards Abhijith' & language=english & route=p & numbers=99XXXXXXXX"
 
     headers = {
 
-    'authorization': "YLqXUhtEuvoGkgj8pwlOBQWTH7ca9AMKyxSR45s3ZD1NrJdfebfAsNuGgL10cIXlbj6pTYE3MBt4CZen",
+    'authorization': "XXXXXXX___Your_authorization_code___XXXXXXXXXX",
 
     'Content-Type': "application/x-www-form-urlencoded",
 
