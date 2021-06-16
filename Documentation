@@ -1,0 +1,71 @@
+DOCUMENTATION FOR ALARM USING PYTHON [Software]
+- BY ABHIJITH DAMERUPPALA
+
+This is a GUI and API Based project. While running, it will notify you with an alarm and will also text you an SMS on the number specified.
+(Audio File is also uploaded)
+
+
+MODULES AND LIBRARIES USED:
+
+#1: Requests:
+	Requests is a simple, yet elegant HTTP library. Requests is a Python module that you can use to send all kinds of HTTP requests. It is an easy-to-use library with a lot of features ranging from passing parameters in URLs to sending custom headers and SSL Verification. You can add headers, form data, multi-part files, and parameters with simple Python dictionaries, and access the response data in the same way.
+-Significance:
+It is the interface (or) communication between the wesite used to send text message via API and the code that is being run.
+
+You can download and install it through command prompt by typing:
+pip install requests
+
+
+#2: tKinter:
+	Python offers multiple options for developing GUI (Graphical User Interface). Out of all the GUI methods, tkinter is the most commonly used method. It is a standard Python interface to the Tk GUI toolkit shipped with Python. Python with tkinter is the fastest and easiest way to create the GUI applications. Creating a GUI using tkinter is an easy task.Tkinter provides various controls, such as buttons, labels and text boxes used in a GUI application. These controls are commonly called widgets.
+-Significance:
+Tkinter is a GUI module for Python, you can make desktop apps with using it. You can also make windows, buttons, show text and images amongst other things.
+
+You can download and install it through command prompt by typing:
+pip install tk
+
+
+#3 DayTime:
+	A date in Python is not a data type of its own, but we can import a module named datetime to work with dates as date objects. The DayTime module supplies classes for manipulating dates and times. The date contains year, month, day, hour, minute, second, and microsecond.
+-Significance:
+We use this module to compare the real time with the input time for alarm function to get activated.
+
+You can download and install it through command prompt by typing:
+pip install datetime
+
+
+#4 PyGame:
+	Pygame is a set of Python modules designed for writing video games. Pygame adds functionality on top of the excellent SDL library. This allows you to create fully featured games and multimedia programs in the python language.You can use pygame from a command line if you want to use it just to process images, get joystick input, or play sounds.
+-Significance:
+This module is used in this project to play sound as an alarm.
+
+You can download and install it through command prompt by typing:
+pip install pygame
+
+
+
+NOTE: For security reasons my Developer API Key is not provided. You can create one at www.fast2sms.com and head over to Dev API for the key after registering.
+
+
+The following instructions are must to be followed before running the project:
+
+=> Install latest version of Python.
+=> Install the following mdules through command prompt(Mandatory for the code to run)
+(TIP:  You can install them by typing the code in the paranthesis in cmmand prompt.)
+requests  (pip install requests)
+tkinker   (pip install tk)
+daytime   (pip install daytima)
+pygame    (pip insall pygame)
+
+=> Place the Audio file named "MyAudio.wav" in the same directory as the code.
+{WARNING: DO NOT CHANGE THE NAME OF THE AUDIO FILE SINCE THE CODE CANNOT DETECT THE FILE ON ITS OWN.}
+=> Create an account at www.fast2sms.com and verify your account.
+=> Copy the Dev API key and place that in the code mentioned. (Line 10 to be exact)
+=> Change the message as required in the message attribute inside send_message() function and 'payload' attribute. (Line 6 to be exact)
+=> Run the code and do not close until the time you gave as input. Since, it cannot run in the background.
+=> Check your mobile for SMS.
+=> If the code doesn't run or any error is displayed, recheck all the steps and run again. If the problem still persists, reach out to me at abhijithdamera@gmail.com
+
+
+Thanks and Regards
+Abhijith Dameruppala
